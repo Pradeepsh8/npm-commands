@@ -1,0 +1,19 @@
+If you’re building a web application with any modern framework, you’ll probably need to install Node at some point. Since different projects have different environment setups, you may need to install multiple node versions on your workstation. As node doesn’t provide any out-of-the-box functionality to have multiple versions of node installed on the same operating system, we'll have to use NVM, which stands for node version manager, to have multiple node versions.
+
+- Install nvm using this link
+  https://github.com/coreybutler/nvm-windows/releases
+
+- Open command prompt in Administrator mode
+
+> nvm --version
+
+> nvm install <nodeVersion>
+Eg- nvm install 18.17.1
+
+> nvm use <nodeVersion>
+
+> node --version
+
+> nvm list
+
+
