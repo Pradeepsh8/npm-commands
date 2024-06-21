@@ -1,0 +1,8 @@
+
+NPX vs NPM
+npx is a package runner tool that comes with npm (since version 5.2.0). It simplifies the use of CLI tools and other executables hosted on the npm registry by:
+
+Running Executables: Allows you to run executables without installing them globally.
+Temporary Installation: Downloads and runs a package temporarily if it's not already installed.
+Avoiding Global Installs: Reduces the need for globally installing packages, helping to avoid version conflicts and unnecessary clutter
+npx -p @angular/cli ng new <project-name>
